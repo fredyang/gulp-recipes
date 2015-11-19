@@ -17,7 +17,8 @@ app.get('/', function(req, res) {
   // nodemon restarting the server upon edit
 
   res.sendfile('public/index.html');
-//  res.send('Ola Mundo!');
+  //res.sendfile('public/copy.html');
+//res.send('Ola Mundo!');
 
 });
 
